@@ -4,8 +4,7 @@ def bubble_sort(array_to_sort)
     for j in 0...i
       if array_to_sort[j] > array_to_sort[j + 1]
         array_to_sort[j], array_to_sort [j+1] = array_to_sort [j+1], array_to_sort[j]
-      end
-      j=j+1   
+      end 
     end
     i=i-1
     #removes redundant checks as bubble sort moves largest to right 
